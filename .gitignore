@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+data/images/
+data/patches/
+*.tif
+*.img
+*.jp2
+.ipynb_checkpoints/
