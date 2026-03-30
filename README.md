@@ -1,8 +1,8 @@
 # 🌑 Crater Detection on Planetary Surfaces
 
 Automatic detection of impact craters on Mars and the Moon using YOLOv8.
+![Crater Detection Results](test_results_grid.png)
 
-![Detection Results](results/test_results_grid.png)
 
 ## Results
 
