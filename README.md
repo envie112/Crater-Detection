@@ -3,7 +3,7 @@
  
 An end-to-end pipeline that automatically detects impact craters on the Moon using real NASA orbital imagery — from raw satellite tiles to a fully interactive georeferenced map.
  
-[![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ramya18145/notebook-crater-detection?scriptVersionId=316009133)
+[![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ramya18145/notebook-crater-detection/edit/run/314038070#Dataset-&-Model-Training)
  
 ---
  
@@ -74,9 +74,7 @@ Training on Kaggle with a T4 GPU hit a PyTorch–CUDA architecture mismatch — 
 ```
 Crater-Detection/
 │
-├── notebooks/
-│   ├── 01_model_training.ipynb           ← YOLOv8 fine-tuning on crater dataset
-│   └── 02_lunar_mapping_pipeline.ipynb   ← Full inference + georeferencing pipeline
+├──  crater_detection_pipeline.ipynb      ← YOLOv8 fine-tuning + Full inference + georeferencing pipeline
 │
 ├── results/
 │   ├── crater_map.html                   ← Interactive Folium map (open in browser)
@@ -90,6 +88,7 @@ Crater-Detection/
 ├── data/                                 ← Dataset config and references
 ├── crater_detector_best.pt               ← Trained model weights
 ├── requirements.txt
+├── crater_journal.docx
 └── README.md
 ```
  
@@ -112,7 +111,7 @@ results[0].show()
  
 **Full pipeline (Kaggle recommended — T4 GPU)**
  
-Open `notebooks/02_lunar_mapping_pipeline.ipynb` on Kaggle using the badge at the top. The notebook runs the full tile download → inference → georeferencing → map export pipeline.
+Open `crater_detection_pipeline.ipynb` on Kaggle using the badge at the top. The notebook runs the full tile download → inference → georeferencing → map export pipeline.
  
 ---
  
