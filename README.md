@@ -35,7 +35,8 @@ With a trained model in hand, the original NASA LRO imagery became the target ra
 | Diameter range | 1.1 km — 85.3 km |
 | Median diameter | 7.6 km |
  
-![Test Results](assets/test_results_grid.png)
+![Test Results](results/crater_detection.PNG)
+![Test Results](results/coordinates.PNG)
  
 ---
  
